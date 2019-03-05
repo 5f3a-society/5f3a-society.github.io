@@ -14,8 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-family: acumin-pro-wide, sans-serif !important;
+  font-weight: 100 !important;
+  font-style: normal;
+  font-size: 2rem;
+  word-break: keep-all;
+  color: #FFFFFF;
+  align: center;
 }
 
 .btn-xl {
@@ -84,46 +89,6 @@ header.masthead .masthead-content .masthead-heading {
   white-space: nowrap !important;
 }
 
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
-}
-
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
-
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
@@ -168,11 +133,29 @@ header.masthead .bg-circle-4 {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 0rem !important;
+  padding-bottom: 10rem !important;
   background-color: #000000;
 }
 
-.about-section h2 {
+.about-section h1{
+  font-family: acumin-pro-wide, sans-serif !important;
+  font-weight: 100 !important;
+  font-style: normal;
+  font-size: 3rem;
+  word-break: keep-all;
+  color: #FFFFFF;
+  align: center !important;
+  margin-bottom: 5rem;
+}
+
+.contact-section {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  background-color: #000000;
+}
+
+.about-section, .contact-section h2 {
   font-family: acumin-pro-wide, sans-serif !important;
   font-weight: 100 !important;
   font-style: normal;
@@ -182,8 +165,7 @@ header.masthead .bg-circle-4 {
   align: center;
 }
 
-.about-section p {
-  margin-bottom: 1rem;
+.about-section, .contact-section  p {
   font-family: acumin-pro-wide, sans-serif !important;
   font-weight: 100 !important;
   font-style: normal;
@@ -193,8 +175,8 @@ header.masthead .bg-circle-4 {
   align: center;
 }
 
-.about-section a {
-  margin-bottom: 10rem;
+.about-section, .contact-section  a {
+  margin-bottom: 0rem;
 }
 
 #footer {
